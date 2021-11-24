@@ -1,0 +1,99 @@
+/* Estilos Contactenos */
+
+.PrincipalFormulario{
+    background-color: $color-terciario;
+}
+
+.imagenInicio{
+    display: flex;
+    justify-content: center;
+        .fotoContactenos{
+            width: 60%;
+            margin: auto;
+            margin-top: 1%;
+            animation-name: barridoCinco;
+            animation-duration: 1s;
+            transition-timing-function: ease-in;
+        }
+}
+
+.TituloFormulario{
+    text-align: center;
+    font-family: $tipografia-primaria;
+    color: $color-secundario;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    animation-name: barridoCuatro;
+    animation-duration: 1.5s;
+    transition-timing-function: ease-in;
+}
+
+
+
+.formulario{
+    width: 60%;
+    font-family: $tipografia-primaria;
+    color: $color-secundario;
+    animation-name: barridoCuatro;
+    animation-duration: 1.5s;
+    transition-timing-function: ease-in;
+}
+
+.masInformacion{
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+.seleccion{
+    display: flex;
+    justify-content:space-evenly
+    
+}
+
+.botonEnviar{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2%;
+}
+
+.btnEnviar{
+    color: whitesmoke;
+    background-color: $color-primario;
+    border-color: black;
+    &:hover{
+        @extend .btnEnviar;
+        transform: scale(1.1,1.1);
+        
+    }
+}
+
+.form-control{
+    
+    background-color: black;
+    border-radius: 0%;
+    border-color: $color-primario;
+    color: $color-secundario;
+    &::placeholder{
+        color: whitesmoke;
+    }
+    &:focus{
+            background-color: black;
+            border-color: $color-secundario;
+            box-shadow: inset;
+            color: $color-secundario;
+    }
+    
+}
+
+.form-select{
+    background-color: black;
+    border-radius: 0%;
+    border-color: $color-primario;
+    color: $color-secundario;
+    &:focus{
+            background-color: black;
+            border-color: $color-secundario;
+            box-shadow: inset;
+            color: $color-secundario;
+    }
+
+}

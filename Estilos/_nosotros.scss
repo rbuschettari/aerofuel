@@ -1,0 +1,58 @@
+/* Estilos Nosotros */
+
+.seccionNosotros{
+    margin: 0%;
+    padding: 0%;
+    background-color: $color-terciario;
+}
+
+.TituloImagenInicio{
+    font-size: 400%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    padding-bottom: 30%;
+    margin-left: -17%;
+    font-weight: bolder;
+    color: whitesmoke
+}
+
+.tituloNosotros{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Montserrat, sans-serif;
+    margin-left: 5%;
+    color: $color-secundario;
+    font-size: 400%;
+}
+
+.contenidoNosotros{
+    column-count: 2;
+    column-gap: 7rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+
+.parrafoNosotros{
+    
+    font-size: 165%;
+    padding-bottom: 10%;
+    color: $color-secundario;
+    
+}
+
+.parrafoNosotrosFinal{
+    
+    font-size: 165%;
+    padding-bottom: 1%;
+    color: $color-secundario;
+    
+}
+
+.ImagenAvionAterrizado{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+

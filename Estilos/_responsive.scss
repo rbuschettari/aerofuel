@@ -1,0 +1,223 @@
+/* Estilos para tablet */
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .introduccion{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .explicacion{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .introduccion__videoMundo{
+    margin-top: 0%;
+    padding-top: 0%;
+    }
+
+    .tituloYresena__tituloDePagina { 
+    text-align: center;
+    }
+
+    .tituloYresena__Resena{
+    color: darkgrey;
+    margin-right: 7%;
+    margin-bottom: 8%;
+    }
+
+    .explicacion__videoAterrizaje{
+    height: 320px;
+    width: auto;
+    margin-left: 0%;
+    padding-left: 0%; 
+    }
+
+    .explicacion__ResenaDos{
+    color: darkgrey;
+    margin-left: 4%;
+    margin-right: 0%;
+    }
+
+    .grilla {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+    }
+
+    .subtitulosServiciosDos{
+        padding-top: 10%;
+    }
+
+
+   
+
+    .redesSociales {
+        display: flex;
+    }
+
+    .seleccion{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    
+}
+
+
+/* Estilos para mini tablets */
+
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+    .introduccion{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .explicacion{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .introduccion__videoMundo{
+    margin-top: 0%;
+    padding-top: 0%;
+    }
+
+    .tituloYresena__tituloDePagina { 
+    text-align: center;
+    }
+
+    .tituloYresena__Resena{
+    color: darkgrey;
+    margin-right: 7%;
+    margin-bottom: 8%;
+    }
+
+    .explicacion__videoAterrizaje{
+    height: 320px;
+    width: auto;
+    margin-left: 0%;
+    padding-left: 0%; 
+    }
+
+    .explicacion__ResenaDos{
+    color: darkgrey;
+    margin-left: 4%;
+    margin-right: 0%;
+    }
+
+    .grilla {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+    }
+
+    .subtitulosServiciosDos{
+        padding-top: 10%;
+    }
+
+    .pieDePagina__derechosReservados {
+        display: none;
+    }
+
+    .pieDePagina {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 70px;
+    align-items: center;
+    }
+
+    .seleccion{
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    .contenidoNosotros{
+    column-count: 1;
+    column-gap: 7rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+    
+}
+
+/* Estilos para mobile */
+
+@media only screen and (max-width: 320px) {
+    .introduccion{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    
+    .explicacion{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    
+    .tituloYresena__tituloDePagina { 
+    text-align: center;
+    }
+    
+    .tituloYresena__Resena{
+    color: darkgrey;
+    margin-right: 7%;
+    margin-bottom: 0%;
+    }
+
+    .explicacion__videoAterrizaje{
+    height: 320px;
+    width: auto;
+    margin-left: 0%;
+    padding-left: 0%; 
+    }
+    
+    .explicacion__ResenaDos{
+    color: darkgrey;
+    margin-left: 4%;
+    margin-right: 0%;
+    }
+
+    .grilla {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+    }
+
+    .subtitulosServiciosDos{
+        padding-top: 10%;
+    }
+
+
+    .pieDePagina__derechosReservados {
+        display: none;
+    }
+
+    .pieDePagina {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 70px;
+    align-items: center;
+    }
+
+    .seleccion{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+}

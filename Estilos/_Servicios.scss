@@ -1,0 +1,72 @@
+/* Estilos Servicios */
+
+.contenedorServicios{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.ServiciosPrincipal {
+    background-color: $color-terciario;
+}
+
+.TituloImagenServicios {
+    font-size: 380%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    padding-bottom: 6%;
+    margin-left: -20%;
+    margin-right: 100%;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.TituloPaginaServicios{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Montserrat, sans-serif;
+    margin-left: 5%;
+    color: $color-secundario;
+    font-size: 400%;
+}
+
+.contenidoImagenesUno{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+.contenidoImagenesDos{
+    @extend .contenidoImagenesUno;
+    padding-top: 5%;
+}
+
+.iconoServicios{
+    width: 50%;
+    height: auto;
+    
+}
+
+.subtituloContenido{
+    padding-top: 15%;
+    margin-left: -20%;
+    font-family: $tipografia-primaria;
+    color: $color-secundario;
+}
+
+.PreciosCompetitivos{
+    padding-top: 10%;
+}
+
+.OpcionesDeCredito{
+    padding-top: 13%;
+}
+
+.ContenidoServicios{
+    color: $color-secundario;
+}
+
+
+
+
+

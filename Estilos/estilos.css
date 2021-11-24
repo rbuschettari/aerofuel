@@ -1,0 +1,608 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+html {
+  font-family: Poppins, sans-serif;
+  font-size: 16px; }
+
+.encabezado {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2f 1fr;
+  align-items: center;
+  margin-bottom: 0.3%;
+  box-shadow: 50px 90px 300px black;
+  background-color: #6480ba;
+  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%); }
+
+.animaciones {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2f 1fr;
+  margin-bottom: 0.3%;
+  box-shadow: 50px 90px 300px black;
+  background-color: #6480ba;
+  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%);
+  animation-name: barrido;
+  animation-duration: 2s; }
+
+.logo {
+  max-width: 30%;
+  height: auto; }
+
+ul li:hover {
+  font-weight: bolder;
+  transform: scale(1.3, 1.3); }
+
+ul li a {
+  color: whitesmoke !important; }
+
+.contenedorCarrousel {
+  margin: 0%;
+  padding: 0%; }
+
+.tituloCarrouselTres, .tituloCarrouselDos {
+  color: whitesmoke;
+  font-weight: bolder; }
+
+.tituloCarrouselUno {
+  font-weight: bolder; }
+
+.parrafoCarrouselUno, .parrafoCarrouselDos, .parrafoCarrouselTres {
+  font-style: italic;
+  font-weight: bolder; }
+
+.contenidoPrincipal {
+  background-color: black; }
+
+.introduccion {
+  display: flex;
+  flex-direction: row-reverse; }
+
+.tituloYresena__tituloDePagina {
+  margin-right: 3%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.5%;
+  padding-left: 5%;
+  animation-name: barridoDos;
+  animation-duration: 2s; }
+
+.tituloYresena__tituloDePagina {
+  color: #6480BA;
+  font-size: 170%;
+  font-weight: bolder;
+  margin-bottom: 2%;
+  text-align: left;
+  text-transform: uppercase; }
+
+.tituloYresena__Resena {
+  color: darkgrey;
+  text-align: justify;
+  font-size: 150%;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 14%; }
+
+.explicacion {
+  display: flex;
+  flex-direction: row; }
+
+.explicacion__videoAterrizaje {
+  height: 320px;
+  width: auto;
+  margin-left: 5%;
+  margin-top: 3%;
+  animation-name: barridoDos;
+  animation-duration: 2s; }
+
+.explicacion__ResenaDos {
+  color: darkgrey;
+  text-align: justify;
+  font-size: 150%;
+  padding-top: 8%;
+  padding-right: 10%;
+  padding-left: 4%;
+  animation-name: barridoTres;
+  animation-duration: 2.5s; }
+
+.introduccion__videoMundo {
+  height: 320px;
+  width: auto;
+  margin-right: 3%;
+  margin-top: 3%;
+  animation-name: barridoTres;
+  animation-duration: 2.5s; }
+
+.detalleServicios {
+  color: black; }
+
+.TituloServicios {
+  padding-top: 5%;
+  color: #6480BA;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 300%; }
+
+.grilla {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%; }
+
+.tarjeta img {
+  border-radius: 5%;
+  max-width: 25rem;
+  width: 100%;
+  padding-top: 5%; }
+
+.tarjeta img:hover {
+  transform: scale(1.1, 1.1); }
+
+.subtitulosServicios {
+  font-size: 2.5rem;
+  font-weight: 1000;
+  color: whitesmoke;
+  font-size: 150%;
+  text-align: center; }
+
+.linkCotizacion {
+  color: #6480BA;
+  margin-left: 2%;
+  font-family: Poppins, sans-serif;
+  margin-top: 10%; }
+
+.linkCotizacion {
+  display: flex; }
+
+.linkCotizacion__bajada {
+  font-size: 180%;
+  text-align: center;
+  padding-bottom: 2%;
+  margin: auto;
+  color: #6480BA; }
+
+.linkCotizacion__enlace {
+  color: whitesmoke;
+  font-family: Poppins, sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center; }
+
+.pieDePagina {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-rows: 70px;
+  align-items: center;
+  background-color: #6480ba;
+  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%); }
+
+.pieDePagina__logoAbreviado {
+  width: 100%; }
+
+.pieDePagina__enlaceLogo {
+  width: 100px;
+  justify-self: self-start; }
+
+.pieDePagina__derechosReservados {
+  color: #EAEAF8;
+  font-size: 12px;
+  font-style: italic;
+  align-self: center;
+  justify-self: center; }
+
+.redesSociales {
+  justify-self: self-end; }
+
+.pieDePagina__logoAbreviado:hover {
+  animation: vibra 0.5s infinite; }
+
+/* Estilos Nosotros */
+.seccionNosotros {
+  margin: 0%;
+  padding: 0%;
+  background-color: black; }
+
+.TituloImagenInicio {
+  font-size: 400%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: start;
+  padding-bottom: 30%;
+  margin-left: -17%;
+  font-weight: bolder;
+  color: whitesmoke; }
+
+.tituloNosotros {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Montserrat, sans-serif;
+  margin-left: 5%;
+  color: whitesmoke;
+  font-size: 400%; }
+
+.contenidoNosotros {
+  column-count: 2;
+  column-gap: 7rem;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.parrafoNosotros {
+  font-size: 165%;
+  padding-bottom: 10%;
+  color: whitesmoke; }
+
+.parrafoNosotrosFinal {
+  font-size: 165%;
+  padding-bottom: 1%;
+  color: whitesmoke; }
+
+.ImagenAvionAterrizado {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%; }
+
+/* Estilos Servicios */
+.contenedorServicios {
+  margin: 0%;
+  padding: 0%; }
+
+.ServiciosPrincipal {
+  background-color: black; }
+
+.TituloImagenServicios {
+  font-size: 380%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: start;
+  padding-bottom: 6%;
+  margin-left: -20%;
+  margin-right: 100%;
+  font-weight: bolder;
+  color: whitesmoke; }
+
+.TituloPaginaServicios {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Montserrat, sans-serif;
+  margin-left: 5%;
+  color: whitesmoke;
+  font-size: 400%; }
+
+.contenidoImagenesUno, .contenidoImagenesDos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5%; }
+
+.contenidoImagenesDos {
+  padding-top: 5%; }
+
+.iconoServicios {
+  width: 50%;
+  height: auto; }
+
+.subtituloContenido {
+  padding-top: 15%;
+  margin-left: -20%;
+  font-family: poppins, sans-serif;
+  color: whitesmoke; }
+
+.PreciosCompetitivos {
+  padding-top: 10%; }
+
+.OpcionesDeCredito {
+  padding-top: 13%; }
+
+.ContenidoServicios {
+  color: whitesmoke; }
+
+/* Estilos Contactenos */
+.PrincipalFormulario {
+  background-color: black; }
+
+.imagenInicio {
+  display: flex;
+  justify-content: center; }
+  .imagenInicio .fotoContactenos {
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    animation-name: barridoCinco;
+    animation-duration: 1s;
+    transition-timing-function: ease-in; }
+
+.TituloFormulario {
+  text-align: center;
+  font-family: poppins, sans-serif;
+  color: whitesmoke;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  animation-name: barridoCuatro;
+  animation-duration: 1.5s;
+  transition-timing-function: ease-in; }
+
+.formulario {
+  width: 60%;
+  font-family: poppins, sans-serif;
+  color: whitesmoke;
+  animation-name: barridoCuatro;
+  animation-duration: 1.5s;
+  transition-timing-function: ease-in; }
+
+.masInformacion {
+  padding-bottom: 3%;
+  padding-top: 1%; }
+
+.seleccion {
+  display: flex;
+  justify-content: space-evenly; }
+
+.botonEnviar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2%; }
+
+.btnEnviar, .btnEnviar:hover {
+  color: whitesmoke;
+  background-color: #6480BA;
+  border-color: black; }
+  .btnEnviar:hover {
+    transform: scale(1.1, 1.1); }
+
+.form-control {
+  background-color: black;
+  border-radius: 0%;
+  border-color: #6480BA;
+  color: whitesmoke; }
+  .form-control::placeholder {
+    color: whitesmoke; }
+  .form-control:focus {
+    background-color: black;
+    border-color: whitesmoke;
+    box-shadow: inset;
+    color: whitesmoke; }
+
+.form-select {
+  background-color: black;
+  border-radius: 0%;
+  border-color: #6480BA;
+  color: whitesmoke; }
+  .form-select:focus {
+    background-color: black;
+    border-color: whitesmoke;
+    box-shadow: inset;
+    color: whitesmoke; }
+
+/* Estilos FAQs */
+.principalFaqs {
+  background-color: black; }
+
+.preguntasFrecuentes {
+  color: whitesmoke;
+  font-size: 130%;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  font-family: poppins, sans-serif; }
+
+.preguntas {
+  font-size: 100%;
+  font-family: poppins, sans-serif;
+  text-align: justify; }
+
+.respuesta {
+  font-size: 100%;
+  font-family: poppins, sans-serif;
+  font-style: italic;
+  text-align: justify;
+  margin-left: 2.5%;
+  margin-right: 2.5%; }
+
+.accordion-item {
+  border-style: dashed;
+  border-color: #6480BA;
+  background-color: black;
+  color: whitesmoke; }
+
+button {
+  text-decoration: none;
+  background-color: black; }
+
+.accordion-button {
+  background-color: black;
+  color: whitesmoke; }
+
+.botonAcordeon {
+  background-color: black; }
+
+.accordion-button:focus {
+  background-color: #6480ba;
+  background-color: linear-gradient(190deg, #6480ba 0%, rgba(101, 133, 186, 0.603145) 0%, #6484ba 100%, #6494ff 100%);
+  color: whitesmoke; }
+
+.faqs {
+  padding-bottom: 8%;
+  margin-top: 2%;
+  margin: center;
+  padding-right: 10%;
+  padding-left: 10%; }
+
+/* Estilos para tablet */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .introduccion {
+    display: flex;
+    flex-direction: column-reverse; }
+  .explicacion {
+    display: flex;
+    flex-direction: column-reverse; }
+  .introduccion__videoMundo {
+    margin-top: 0%;
+    padding-top: 0%; }
+  .tituloYresena__tituloDePagina {
+    text-align: center; }
+  .tituloYresena__Resena {
+    color: darkgrey;
+    margin-right: 7%;
+    margin-bottom: 8%; }
+  .explicacion__videoAterrizaje {
+    height: 320px;
+    width: auto;
+    margin-left: 0%;
+    padding-left: 0%; }
+  .explicacion__ResenaDos {
+    color: darkgrey;
+    margin-left: 4%;
+    margin-right: 0%; }
+  .grilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%; }
+  .subtitulosServiciosDos {
+    padding-top: 10%; }
+  .redesSociales {
+    display: flex; }
+  .seleccion {
+    display: flex;
+    flex-direction: column; } }
+
+/* Estilos para mini tablets */
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+  .introduccion {
+    display: flex;
+    flex-direction: column-reverse; }
+  .explicacion {
+    display: flex;
+    flex-direction: column-reverse; }
+  .introduccion__videoMundo {
+    margin-top: 0%;
+    padding-top: 0%; }
+  .tituloYresena__tituloDePagina {
+    text-align: center; }
+  .tituloYresena__Resena {
+    color: darkgrey;
+    margin-right: 7%;
+    margin-bottom: 8%; }
+  .explicacion__videoAterrizaje {
+    height: 320px;
+    width: auto;
+    margin-left: 0%;
+    padding-left: 0%; }
+  .explicacion__ResenaDos {
+    color: darkgrey;
+    margin-left: 4%;
+    margin-right: 0%; }
+  .grilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%; }
+  .subtitulosServiciosDos {
+    padding-top: 10%; }
+  .pieDePagina__derechosReservados {
+    display: none; }
+  .pieDePagina {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 70px;
+    align-items: center; }
+  .seleccion {
+    display: flex;
+    flex-direction: column; }
+  .contenidoNosotros {
+    column-count: 1;
+    column-gap: 7rem;
+    margin-left: 5%;
+    margin-right: 5%; } }
+
+/* Estilos para mobile */
+@media only screen and (max-width: 320px) {
+  .introduccion {
+    display: flex;
+    flex-direction: column-reverse; }
+  .explicacion {
+    display: flex;
+    flex-direction: column-reverse; }
+  .tituloYresena__tituloDePagina {
+    text-align: center; }
+  .tituloYresena__Resena {
+    color: darkgrey;
+    margin-right: 7%;
+    margin-bottom: 0%; }
+  .explicacion__videoAterrizaje {
+    height: 320px;
+    width: auto;
+    margin-left: 0%;
+    padding-left: 0%; }
+  .explicacion__ResenaDos {
+    color: darkgrey;
+    margin-left: 4%;
+    margin-right: 0%; }
+  .grilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%; }
+  .subtitulosServiciosDos {
+    padding-top: 10%; }
+  .pieDePagina__derechosReservados {
+    display: none; }
+  .pieDePagina {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 70px;
+    align-items: center; }
+  .seleccion {
+    display: flex;
+    flex-direction: column; } }
+
+@keyframes barrido {
+  from {
+    margin-top: 100%;
+    width: 250%; }
+  to {
+    margin-top: 0%;
+    width: 100%; } }
+
+@keyframes barridoDos {
+  from {
+    margin-left: -300%;
+    width: 250%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@keyframes barridoTres {
+  from {
+    margin-right: -300%;
+    width: 250%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@keyframes barridoCuatro {
+  from {
+    margin-top: 300%;
+    width: 60%; }
+  to {
+    margin-top: 0%;
+    width: 60%; } }
+
+@keyframes barridoCinco {
+  from {
+    margin-right: -300%;
+    width: 250%; }
+  to {
+    width: 60%; } }
+
+@keyframes vibra {
+  0% {
+    transform: rotateZ(-50deg); }
+  40% {
+    transform: rotateZ(-10deg) scale(1.2); }
+  60% {
+    transform: rotateZ(10deg) scale(1.2); }
+  100% {
+    transform: rotateZ(50deg); } }

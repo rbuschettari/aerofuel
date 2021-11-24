@@ -1,0 +1,69 @@
+@keyframes barrido {
+    from {
+      margin-top: 100%;
+      width: 250%
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes barridoDos {
+    from {
+      margin-left: -300%;
+      width: 250%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes barridoTres {
+    from {
+      margin-right: -300%;
+      width: 250%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes barridoCuatro {
+    from {
+      margin-top: 300%;
+      width: 60%;
+      
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 60%;
+      
+    }
+}
+
+@keyframes barridoCinco {
+    from {
+      margin-right: -300%;
+      width: 250%
+    }
+  
+    to {
+      
+      width: 60%;
+    }
+}
+
+@keyframes vibra{
+  0%  { transform:rotateZ(-50deg); }
+  40% { transform:rotateZ(-10deg) scale(1.2); }
+  60% { transform:rotateZ( 10deg) scale(1.2); }
+  100%{ transform:rotateZ( 50deg); }
+}
+

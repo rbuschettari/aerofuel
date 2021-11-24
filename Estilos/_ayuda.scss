@@ -1,0 +1,69 @@
+/* Estilos FAQs */
+
+.principalFaqs{
+    background-color: black;
+    
+}
+
+.preguntasFrecuentes{
+    color:whitesmoke;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    font-family: poppins, sans-serif;
+
+}
+
+.preguntas{
+    font-size: 100%;
+    font-family: poppins, sans-serif;
+    text-align: justify;
+}
+
+.respuesta{
+    font-size: 100%;
+    font-family: poppins, sans-serif;
+    font-style: italic;
+    text-align: justify;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+}
+
+.accordion-item{
+    border-style: dashed;
+    border-color: #6480BA;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+button{
+    text-decoration: none;
+    background-color: black;
+}
+
+.accordion-button{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.botonAcordeon{
+    background-color: black;
+}
+
+.accordion-button:focus{
+    background-color: rgb(100,128,186);
+    background-color: linear-gradient(190deg, rgba(100,128,186,1) 0%, rgba(101,133,186,0.6031454818255427) 0%, rgba(100,132,186,1) 100%, rgba(100,148,255,1) 100%);
+    color: whitesmoke;
+}
+
+
+.faqs{
+    padding-bottom: 8%;
+    margin-top: 2%;
+    margin: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}

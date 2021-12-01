@@ -68,5 +68,53 @@
 
 
 
+.ContenidoImagenTexto{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.HombreAbasteciendo, .AvionVerde{
+    width: 30%;
+    height: auto;
+    border-radius: 1%;
+}
+
+.TextoJetFuel {
+    margin-left: 5%;
+    margin-right: 15%;
+    font-family: poppins, sans-serif;
+    font-size: 130%;
+    text-align: justify;
+}
+
+.TituloJetFuel{
+    margin-left: 5%;
+    padding-bottom: 2%;
+    font-family: poppins, sans-serif;
+}
+
+.ContenidoImagenTextoDos{
+    display: flex;
+    margin-top: 10%;
+    margin-right: 10%;
+    flex-direction: row-reverse;
+    padding-bottom: 10%;
+}
+
+.TituloEmisiones{
+    margin-left: 5%;
+    padding-bottom: 2%;
+    font-family: poppins, sans-serif;
+}
+
+.TextoEmisiones {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: poppins, sans-serif;
+    font-size: 130%;
+    text-align: justify;
+}
+
 
 

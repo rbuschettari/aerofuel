@@ -1,22 +1,33 @@
 /* Estilos Servicios */
 
 .contenedorServicios{
+    position: relative;
+    display: inline-block;
+    text-align: center;
     margin: 0%;
     padding: 0%;
+    
 
+}
+
+.imgTrenAterrizaje{
+    width: 100%;
+    height: auto;
 }
 
 .ServiciosPrincipal {
     background-color: $color-terciario;
 }
 
+
 .TituloImagenServicios {
+    position: absolute;
+    top: 30%;
+    left: 1%;
     font-size: 380%;
+    right: 100%;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    padding-bottom: 6%;
-    margin-left: -20%;
-    margin-right: 100%;
     font-weight: bolder;
     color: whitesmoke;
 }
@@ -84,7 +95,7 @@
     margin-left: 5%;
     margin-right: 15%;
     font-family: poppins, sans-serif;
-    font-size: 130%;
+    font-size: 110%;
     text-align: justify;
 }
 
@@ -112,10 +123,10 @@
 }
 
 .TextoEmisiones {
-    margin-left: 5%;
+    margin-left: 7%;
     margin-right: 5%;
     font-family: poppins, sans-serif;
-    font-size: 130%;
+    font-size: 110%;
     text-align: justify;
 }
 

@@ -513,6 +513,8 @@ button {
     margin-top: 5%; }
   .subtitulosServiciosDos {
     padding-top: 10%; }
+  .TituloImagenServicios {
+    display: none; }
   .HombreAbasteciendo, .AvionVerde {
     width: 50%;
     height: auto;
@@ -567,6 +569,8 @@ button {
     margin-top: 5%; }
   .subtitulosServiciosDos {
     padding-top: 10%; }
+  .TituloImagenServicios {
+    display: none; }
   .contenidoImagenesUno, .contenidoImagenesDos {
     display: flex;
     flex-direction: column;
@@ -650,6 +654,8 @@ button {
     margin-top: 5%; }
   .subtitulosServiciosDos {
     padding-top: 10%; }
+  .TituloImagenServicios {
+    display: none; }
   .contenidoImagenesUno, .contenidoImagenesDos {
     display: flex;
     flex-direction: column;

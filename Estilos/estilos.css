@@ -571,7 +571,7 @@ button {
     width: 100%;
     height: auto; }
   .subtituloContenido {
-    font-size: 70%;
+    font-size: 100%;
     margin: 0%; }
   .PreciosCompetitivos {
     padding-top: 0%; }
@@ -582,12 +582,12 @@ button {
     flex-direction: column;
     align-items: center; }
   .HombreAbasteciendo, .AvionVerde {
-    width: 100%;
+    width: 70%;
     height: auto;
     border-radius: 1%; }
   .TextoJetFuel, .TextoEmisiones {
     font-family: poppins, sans-serif;
-    font-size: 130%;
+    font-size: 90%;
     text-align: justify;
     align-items: center; }
   .TituloJetFuel, .TituloEmisiones {
@@ -651,35 +651,26 @@ button {
     flex-direction: column;
     align-items: center; }
   .iconoServicios {
-    width: 50%;
+    width: 100%;
     height: auto; }
   .subtituloContenido {
-    font-size: 70%;
+    font-size: 100%;
     margin: 0%; }
   .PreciosCompetitivos {
     padding-top: 0%; }
   .OpcionesDeCredito {
     padding-top: 0%; }
-  .subtituloContenido {
-    padding-top: 15%;
-    margin-left: -20%;
-    font-family: poppins, sans-serif;
-    color: whitesmoke; }
-  .PreciosCompetitivos {
-    padding-top: 10%; }
-  .OpcionesDeCredito {
-    padding-top: 13%; }
   .ContenidoImagenTexto, .ContenidoImagenTextoDos {
     display: flex;
     flex-direction: column;
     align-items: center; }
   .HombreAbasteciendo, .AvionVerde {
-    width: 30%;
+    width: 70%;
     height: auto;
     border-radius: 1%; }
   .TextoJetFuel, .TextoEmisiones {
     font-family: poppins, sans-serif;
-    font-size: 130%;
+    font-size: 90%;
     text-align: justify;
     align-items: center; }
   .TituloJetFuel, .TituloEmisiones {

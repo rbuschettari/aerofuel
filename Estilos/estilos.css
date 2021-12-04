@@ -316,9 +316,10 @@ ul li a {
   text-align: justify; }
 
 .TituloJetFuel {
-  margin-left: 5%;
+  margin-left: -5%;
   padding-bottom: 2%;
-  font-family: poppins, sans-serif; }
+  font-family: poppins, sans-serif;
+  font-weight: bold; }
 
 .ContenidoImagenTextoDos {
   display: flex;
@@ -330,7 +331,8 @@ ul li a {
 .TituloEmisiones {
   margin-left: 5%;
   padding-bottom: 2%;
-  font-family: poppins, sans-serif; }
+  font-family: poppins, sans-serif;
+  font-weight: bold; }
 
 .TextoEmisiones {
   margin-left: 5%;
@@ -503,13 +505,6 @@ button {
     margin-top: 5%; }
   .subtitulosServiciosDos {
     padding-top: 10%; }
-  .contenidoImagenesDos {
-    display: flex;
-    flex-direction: column; }
-  .ContenidoImagenTexto, .ContenidoImagenTextoDos {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
   .HombreAbasteciendo, .AvionVerde {
     width: 30%;
     height: auto;
@@ -523,7 +518,8 @@ button {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-family: poppins, sans-serif; }
+    font-family: poppins, sans-serif;
+    font-weight: bold; }
   .redesSociales {
     display: flex; }
   .seleccion {
@@ -572,7 +568,7 @@ button {
     flex-direction: column;
     align-items: center; }
   .iconoServicios {
-    width: 50%;
+    width: 100%;
     height: auto; }
   .subtituloContenido {
     font-size: 70%;
@@ -586,7 +582,7 @@ button {
     flex-direction: column;
     align-items: center; }
   .HombreAbasteciendo, .AvionVerde {
-    width: 30%;
+    width: 100%;
     height: auto;
     border-radius: 1%; }
   .TextoJetFuel, .TextoEmisiones {
@@ -598,7 +594,8 @@ button {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-family: poppins, sans-serif; }
+    font-family: poppins, sans-serif;
+    font-weight: bold; }
   .pieDePagina__derechosReservados {
     display: none; }
   .pieDePagina {
@@ -689,7 +686,8 @@ button {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-family: poppins, sans-serif; }
+    font-family: poppins, sans-serif;
+    font-weight: bold; }
   .pieDePagina__derechosReservados {
     display: none; }
   .pieDePagina {

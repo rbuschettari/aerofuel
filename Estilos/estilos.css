@@ -516,7 +516,7 @@ button {
   .TituloImagenServicios {
     display: none; }
   .HombreAbasteciendo, .AvionVerde {
-    width: 70%;
+    width: 85%;
     height: auto;
     border-radius: 1%; }
   .TextoJetFuel, .TextoEmisiones {
@@ -582,7 +582,7 @@ button {
     flex-direction: column;
     align-items: center; }
   .iconoServicios {
-    width: 70%;
+    width: 50%;
     height: auto; }
   .subtituloContenido {
     font-size: 170%;
@@ -596,7 +596,7 @@ button {
     flex-direction: column;
     align-items: center; }
   .HombreAbasteciendo, .AvionVerde {
-    width: 70%;
+    width: 85%;
     height: auto;
     border-radius: 1%; }
   .TextoJetFuel, .TextoEmisiones {
@@ -669,7 +669,7 @@ button {
     flex-direction: column;
     align-items: center; }
   .iconoServicios {
-    width: 70%;
+    width: 50%;
     height: auto; }
   .subtituloContenido {
     font-size: 170%;
@@ -683,7 +683,7 @@ button {
     flex-direction: column;
     align-items: center; }
   .HombreAbasteciendo, .AvionVerde {
-    width: 70%;
+    width: 85%;
     height: auto;
     border-radius: 1%; }
   .TextoJetFuel, .TextoEmisiones {

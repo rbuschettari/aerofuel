@@ -24,9 +24,7 @@ html {
   margin-bottom: 0.3%;
   box-shadow: 50px 90px 300px black;
   background-color: #6480ba;
-  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%);
-  animation-name: barrido;
-  animation-duration: 2s; }
+  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%); }
 
 .logo {
   max-width: 30%;
@@ -67,9 +65,7 @@ ul li a {
   display: flex;
   flex-direction: column;
   padding-top: 3.5%;
-  padding-left: 5%;
-  animation-name: barridoDos;
-  animation-duration: 2s; }
+  padding-left: 5%; }
 
 .tituloYresena__tituloDePagina {
   color: #6480BA;
@@ -95,9 +91,7 @@ ul li a {
   height: 320px;
   width: auto;
   margin-left: 5%;
-  margin-top: 3%;
-  animation-name: barridoDos;
-  animation-duration: 2s; }
+  margin-top: 3%; }
 
 .explicacion__ResenaDos {
   color: darkgrey;
@@ -105,17 +99,13 @@ ul li a {
   font-size: 150%;
   padding-top: 8%;
   padding-right: 10%;
-  padding-left: 4%;
-  animation-name: barridoTres;
-  animation-duration: 2.5s; }
+  padding-left: 4%; }
 
 .introduccion__videoMundo {
   height: 320px;
   width: auto;
   margin-right: 3%;
-  margin-top: 3%;
-  animation-name: barridoTres;
-  animation-duration: 2.5s; }
+  margin-top: 3%; }
 
 .detalleServicios {
   color: black; }

@@ -1,9 +1,10 @@
 /* Estilos Servicios */
 
 .contenedorServicios{
-    text-align: center;
+    
     margin: 0%;
     padding: 0%;
+    text-align: center;
     
 
 }
@@ -33,8 +34,10 @@
 .TituloPaginaServicios{
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: left;
+    padding-left: 5%;
     font-family: Montserrat, sans-serif;
-    margin-left: 5%;
+    margin-left: 0%;
     color: $color-secundario;
     font-size: 400%;
 }

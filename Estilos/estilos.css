@@ -194,18 +194,30 @@ ul li a {
   animation: vibra 0.5s infinite; }
 
 /* Estilos Nosotros */
-.seccionNosotros {
-  margin: 0%;
-  padding: 0%;
+.nosotros {
   background-color: black; }
 
+.seccionNosotros {
+  margin: 0%;
+  padding: 0%; }
+
+.contenedorNosotros {
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  display: inline-block; }
+
+.imgAvionVolando {
+  width: 100%;
+  height: auto; }
+
 .TituloImagenInicio {
+  position: absolute;
   font-size: 400%;
   font-family: 'Montserrat', sans-serif;
-  text-align: start;
-  padding-bottom: 30%;
-  margin-left: -17%;
   font-weight: bolder;
+  top: 25%;
+  left: 5%;
   color: whitesmoke; }
 
 .tituloNosotros {
@@ -618,7 +630,9 @@ button {
     column-count: 1;
     column-gap: 7rem;
     margin-left: 5%;
-    margin-right: 5%; } }
+    margin-right: 5%; }
+  .preguntas, .respuesta {
+    text-align: left; } }
 
 /* Estilos para mobile */
 @media only screen and (max-width: 320px) {

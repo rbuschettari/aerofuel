@@ -1,18 +1,35 @@
 /* Estilos Nosotros */
 
+.nosotros{
+    background-color: $color-terciario
+}
+
 .seccionNosotros{
     margin: 0%;
     padding: 0%;
-    background-color: $color-terciario;
+
+}
+
+.contenedorNosotros{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.imgAvionVolando{
+    width: 100%;
+    height: auto;
 }
 
 .TituloImagenInicio{
+    position: absolute;
     font-size: 400%;
     font-family: 'Montserrat', sans-serif;
-    text-align: start;
-    padding-bottom: 30%;
-    margin-left: -17%;
     font-weight: bolder;
+    top: 25%;
+    left: 5%;
     color: whitesmoke
 }
 

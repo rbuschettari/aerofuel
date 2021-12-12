@@ -89,7 +89,7 @@ ul li a {
   display: flex;
   flex-direction: row; }
 
-.explicacion__videoAterrizaje {
+.explicacion__videoConexion {
   height: 320px;
   width: auto;
   margin-left: 5%;
@@ -488,7 +488,7 @@ button {
     margin-right: 0%;
     margin-bottom: 8%;
     text-align: left; }
-  .explicacion__videoAterrizaje {
+  .explicacion__videoConexion {
     height: 320px;
     width: auto;
     margin-left: 0%;
@@ -546,7 +546,7 @@ button {
     margin-right: -5%;
     margin-bottom: 8%;
     text-align: left; }
-  .explicacion__videoAterrizaje {
+  .explicacion__videoConexion {
     height: 320px;
     width: auto;
     margin-left: 0%;
@@ -635,7 +635,7 @@ button {
     margin-right: -5%;
     margin-bottom: 8%;
     text-align: left; }
-  .explicacion__videoAterrizaje {
+  .explicacion__videoConexion {
     height: 320px;
     width: auto;
     margin-left: 0%;

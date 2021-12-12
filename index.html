@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>AEROFUEL - Home</title>
 </head>
 <body>
@@ -107,7 +108,7 @@
                 </button>
             </div>
 
-            <section class="introduccion">
+            <section class="introduccion animate__animated animate__fadeInLeft animate_slower animate__delay-2s">
                 <video class="introduccion__videoMundo" src="./Multimedia/Video/video-mundo.mp4" autoplay muted loop>Tu navegador no es compatible con el video</video>
         
                 <div class="tituloYresena">
@@ -120,7 +121,7 @@
                 </div>
             </section>
         
-            <section class="explicacion">
+            <section class="explicacion animate__animated animate__fadeInRight animate_slower animate__delay-3s">
                 <video class="explicacion__videoAterrizaje" src="./Multimedia/Video/avion-aterrizando.mp4" autoplay muted loop>Tu navegador no es compatible con el video</video>
         
                 <p class="explicacion__ResenaDos">Tenemos una sólida base global con proveedores estratégicos para que las operaciones se desarrollen acorde a las necesidades del ciente y cumpliendo los más altos estandares de calidad en producto y seguridad en aeropuertos.</p>
@@ -130,13 +131,13 @@
                 <h2 class="TituloServicios animate__animated animate__heartBeat animate__slower">Conozca más</h2>
 
                 <div class="grilla ">
-                    <div class="tarjeta animate__animated animate__bounceInLeft animate__slower">
+                    <div class="tarjeta animate__animated animate__flipInY animate_slower animate__delay-4s">
                         <h3 class="subtitulosServicios">Abastecimiento de Jet Fuel</h3>
                         <a href="./Pages/servicios.html"><img class="imagenServiciosCombustible" src="./Multimedia/Imagenes/hombre-cargando-combustible-dos.jpg" alt="Hombre cargando combustible"></a>
                         
                     </div>
 
-                    <div class="tarjeta animate__animated animate__bounceInRight animate__slower">
+                    <div class="tarjeta animate__animated animate__flipInY animate_slower animate__delay-4s">
                         <h3 class="subtitulosServicios subtitulosServiciosDos">Asesoramiento en Emisiones</h3>
                         <a href="./Pages/servicios.html"><img class="imagenServiciosAsesorias" src="./Multimedia/Imagenes/avion-verde-dos.jpg" alt="avion volando entre arboles"></a>
                         
@@ -171,6 +172,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
      
             
 

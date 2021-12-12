@@ -519,21 +519,43 @@ button {
     padding-top: 10%; }
   .TituloImagenServicios, .TituloImagenInicio {
     display: none; }
+  .ContenidoImagenTexto, .ContenidoImagenTextoDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .HombreAbasteciendo, .AvionVerde {
     width: 85%;
     height: auto;
     border-radius: 1%; }
-  .TextoJetFuel, .TextoEmisiones {
+  .AvionVerde {
+    margin-left: 15%; }
+  .TextoJetFuel {
     font-family: poppins, sans-serif;
-    font-size: 130%;
+    font-size: 90%;
     text-align: justify;
-    align-items: center; }
-  .TituloJetFuel, .TituloEmisiones {
+    align-items: center;
+    margin-left: 12%;
+    padding: 0%; }
+  .TextoEmisiones {
+    font-family: poppins, sans-serif;
+    font-size: 90%;
+    text-align: justify;
+    align-items: center;
+    margin-left: 17%;
+    padding: 0%; }
+  .TituloJetFuel {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: poppins, sans-serif;
     font-weight: bold; }
+  .TituloEmisiones {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    margin-left: 13%; }
   .redesSociales {
     display: flex; }
   .seleccion {
@@ -605,17 +627,35 @@ button {
     width: 85%;
     height: auto;
     border-radius: 1%; }
-  .TextoJetFuel, .TextoEmisiones {
+  .AvionVerde {
+    margin-left: 15%; }
+  .TextoJetFuel {
     font-family: poppins, sans-serif;
     font-size: 90%;
     text-align: justify;
-    align-items: center; }
-  .TituloJetFuel, .TituloEmisiones {
+    align-items: center;
+    margin-left: 12%;
+    padding: 0%; }
+  .TextoEmisiones {
+    font-family: poppins, sans-serif;
+    font-size: 90%;
+    text-align: justify;
+    align-items: center;
+    margin-left: 17%;
+    padding: 0%; }
+  .TituloJetFuel {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: poppins, sans-serif;
     font-weight: bold; }
+  .TituloEmisiones {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    margin-left: 13%; }
   .pieDePagina__derechosReservados {
     display: none; }
   .pieDePagina {
@@ -696,17 +736,35 @@ button {
     width: 85%;
     height: auto;
     border-radius: 1%; }
-  .TextoJetFuel, .TextoEmisiones {
+  .AvionVerde {
+    margin-left: 15%; }
+  .TextoJetFuel {
     font-family: poppins, sans-serif;
     font-size: 90%;
     text-align: justify;
-    align-items: center; }
-  .TituloJetFuel, .TituloEmisiones {
+    align-items: center;
+    margin-left: 12%;
+    padding: 0%; }
+  .TextoEmisiones {
+    font-family: poppins, sans-serif;
+    font-size: 90%;
+    text-align: justify;
+    align-items: center;
+    margin-left: 17%;
+    padding: 0%; }
+  .TituloJetFuel {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: poppins, sans-serif;
     font-weight: bold; }
+  .TituloEmisiones {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    margin-left: 13%; }
   .pieDePagina__derechosReservados {
     display: none; }
   .pieDePagina {

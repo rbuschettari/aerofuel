@@ -24,7 +24,9 @@ html {
   margin-bottom: 0.3%;
   box-shadow: 50px 90px 300px black;
   background-color: #6480ba;
-  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%); }
+  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%);
+  animation-name: barrido;
+  animation-duration: 2s; }
 
 .logo {
   max-width: 30%;

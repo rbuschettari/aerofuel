@@ -373,10 +373,7 @@ ul li a {
   font-family: poppins, sans-serif;
   color: whitesmoke;
   margin-bottom: 2%;
-  margin-top: 2%;
-  animation-name: barridoCuatro;
-  animation-duration: 1.5s;
-  transition-timing-function: ease-in; }
+  margin-top: 2%; }
 
 .formulario {
   width: 60%;

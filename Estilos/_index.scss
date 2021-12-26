@@ -17,8 +17,8 @@ html{
     align-items: center;
     margin-bottom: 0.3%;
     box-shadow: 50px 90px 300px black;
-    background-color: rgb(100,128,186);
-    background-color: linear-gradient(90deg, rgba(100,128,186,1) 0%, rgba(101,133,186,1) 35%, rgba(100,132,186,1) 52%, rgba(100,148,255,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,78,78,1) 80%);
     
        
 }
@@ -29,8 +29,9 @@ html{
     grid-template-rows: 2f 1fr;
     margin-bottom: 0.3%;
     box-shadow: 50px 90px 300px black;
-    background-color: rgb(100,128,186);
-    background-color: linear-gradient(90deg, rgba(100,128,186,1) 0%, rgba(101,133,186,1) 35%, rgba(100,132,186,1) 52%, rgba(100,148,255,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,78,78,1) 80%);
+ 
     animation-name: barrido;
     animation-duration: 2s;
     
@@ -42,6 +43,7 @@ html{
 .logo {
     max-width: 30%;
     height: auto;
+    margin-top: 0.5%;
     
     
 }
@@ -53,7 +55,8 @@ ul{
         transform: scale(1.3,1.3);
         }
         a{
-        color: whitesmoke !important;
+        color: $color-primario !important;
+        font-weight: bold;
         }   
     }
 }
@@ -65,7 +68,7 @@ ul{
 }
 
 .tituloCarrouselTres, .tituloCarrouselDos{
-    color: whitesmoke;
+    color: $color-secundario;
     font-weight: bolder;
     
 }
@@ -83,7 +86,7 @@ ul{
 }
 
 .contenidoPrincipal{
-    background-color: black;
+    background-color: $color-terciario;
 }
 
 .introduccion{
@@ -102,7 +105,7 @@ ul{
 }
 
 .tituloYresena__tituloDePagina {
-    color:#6480BA;
+    color: $color-primario;
     font-size: 170%;
     font-weight: bolder;
     margin-bottom: 2%;
@@ -155,7 +158,7 @@ ul{
 }
 
 .detalleServicios{
-   color: black; 
+   color: $color-terciario; 
     
 }
 
@@ -198,7 +201,7 @@ ul{
 }
 
 .linkCotizacion {
-    color: #6480BA;
+    color: $color-primario;
     margin-left: 2%;
     font-family: Poppins, sans-serif;
     margin-top: 10%;
@@ -234,13 +237,13 @@ ul{
     grid-template-columns: 4fr 4fr 4fr;
     grid-template-rows: 70px;
     align-items: center;
-    background-color: rgb(100,128,186);
-    background-color: linear-gradient(90deg, rgba(100,128,186,1) 0%, rgba(101,133,186,1) 35%, rgba(100,132,186,1) 52%, rgba(100,148,255,1) 100%);
+    background-color: $color-terciario;
     
 }
 
 .pieDePagina__logoAbreviado{
-    width: 100%;
+    width: 35%;
+    margin-left: 15%;
    
 }    
 

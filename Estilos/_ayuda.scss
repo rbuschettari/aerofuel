@@ -33,7 +33,7 @@
 
 .accordion-item{
     border-style: dashed;
-    border-color: #6480BA;
+    border-color: $color-primario;
     background-color: black;
     color: whitesmoke;
     
@@ -54,8 +54,8 @@ button{
 }
 
 .accordion-button:focus{
-    background-color: rgb(100,128,186);
-    background-color: linear-gradient(190deg, rgba(100,128,186,1) 0%, rgba(101,133,186,0.6031454818255427) 0%, rgba(100,132,186,1) 100%, rgba(100,148,255,1) 100%);
+    background: rgb(117,54,41);
+    background: linear-gradient(90deg, rgba(117,54,41,1) 0%, rgba(219,96,37,1) 100%);
     color: whitesmoke;
 }
 

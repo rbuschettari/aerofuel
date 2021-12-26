@@ -14,8 +14,8 @@ html {
   align-items: center;
   margin-bottom: 0.3%;
   box-shadow: 50px 90px 300px black;
-  background-color: #6480ba;
-  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%); }
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #4e4e4e 80%); }
 
 .animaciones {
   display: grid;
@@ -23,21 +23,23 @@ html {
   grid-template-rows: 2f 1fr;
   margin-bottom: 0.3%;
   box-shadow: 50px 90px 300px black;
-  background-color: #6480ba;
-  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%);
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #4e4e4e 80%);
   animation-name: barrido;
   animation-duration: 2s; }
 
 .logo {
   max-width: 30%;
-  height: auto; }
+  height: auto;
+  margin-top: 0.5%; }
 
 ul li:hover {
   font-weight: bolder;
   transform: scale(1.3, 1.3); }
 
 ul li a {
-  color: whitesmoke !important; }
+  color: #EC6828 !important;
+  font-weight: bold; }
 
 .contenedorCarrousel {
   margin: 0%;
@@ -70,7 +72,7 @@ ul li a {
   padding-left: 5%; }
 
 .tituloYresena__tituloDePagina {
-  color: #6480BA;
+  color: #EC6828;
   font-size: 170%;
   font-weight: bolder;
   margin-bottom: 2%;
@@ -114,7 +116,7 @@ ul li a {
 
 .TituloServicios {
   padding-top: 5%;
-  color: #6480BA;
+  color: #EC6828;
   text-align: center;
   font-weight: bolder;
   font-size: 300%; }
@@ -141,7 +143,7 @@ ul li a {
   text-align: center; }
 
 .linkCotizacion {
-  color: #6480BA;
+  color: #EC6828;
   margin-left: 2%;
   font-family: Poppins, sans-serif;
   margin-top: 10%; }
@@ -154,7 +156,7 @@ ul li a {
   text-align: center;
   padding-bottom: 2%;
   margin: auto;
-  color: #6480BA; }
+  color: #EC6828; }
 
 .linkCotizacion__enlace {
   color: whitesmoke;
@@ -170,11 +172,11 @@ ul li a {
   grid-template-columns: 4fr 4fr 4fr;
   grid-template-rows: 70px;
   align-items: center;
-  background-color: #6480ba;
-  background-color: linear-gradient(90deg, #6480ba 0%, #6585ba 35%, #6484ba 52%, #6494ff 100%); }
+  background-color: black; }
 
 .pieDePagina__logoAbreviado {
-  width: 100%; }
+  width: 35%;
+  margin-left: 15%; }
 
 .pieDePagina__enlaceLogo {
   width: 100px;
@@ -331,7 +333,8 @@ ul li a {
   margin-left: -5%;
   padding-bottom: 2%;
   font-family: poppins, sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #EC6828; }
 
 .ContenidoImagenTextoDos {
   display: flex;
@@ -344,7 +347,8 @@ ul li a {
   margin-left: 5%;
   padding-bottom: 2%;
   font-family: poppins, sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #EC6828; }
 
 .TextoEmisiones {
   margin-left: 7%;
@@ -398,7 +402,7 @@ ul li a {
 
 .btnEnviar, .btnEnviar:hover {
   color: whitesmoke;
-  background-color: #6480BA;
+  background-color: #EC6828;
   border-color: black; }
   .btnEnviar:hover {
     transform: scale(1.1, 1.1); }
@@ -406,7 +410,7 @@ ul li a {
 .form-control {
   background-color: black;
   border-radius: 0%;
-  border-color: #6480BA;
+  border-color: #EC6828;
   color: whitesmoke; }
   .form-control::placeholder {
     color: whitesmoke; }
@@ -419,7 +423,7 @@ ul li a {
 .form-select {
   background-color: black;
   border-radius: 0%;
-  border-color: #6480BA;
+  border-color: #EC6828;
   color: whitesmoke; }
   .form-select:focus {
     background-color: black;
@@ -454,7 +458,7 @@ ul li a {
 
 .accordion-item {
   border-style: dashed;
-  border-color: #6480BA;
+  border-color: #EC6828;
   background-color: black;
   color: whitesmoke; }
 
@@ -470,8 +474,8 @@ button {
   background-color: black; }
 
 .accordion-button:focus {
-  background-color: #6480ba;
-  background-color: linear-gradient(190deg, #6480ba 0%, rgba(101, 133, 186, 0.603145) 0%, #6484ba 100%, #6494ff 100%);
+  background: #753629;
+  background: linear-gradient(90deg, #753629 0%, #db6025 100%);
   color: whitesmoke; }
 
 .faqs {

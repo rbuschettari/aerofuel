@@ -29,9 +29,10 @@ html {
   animation-duration: 2s; }
 
 .logo {
-  max-width: 30%;
+  max-width: 40%;
   height: auto;
-  margin-top: 0.5%; }
+  padding-top: 2.5%;
+  margin-bottom: 2.5%; }
 
 ul li:hover {
   font-weight: bolder;

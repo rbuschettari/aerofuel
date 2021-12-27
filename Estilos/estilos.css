@@ -191,9 +191,6 @@ ul li a {
   align-self: center;
   justify-self: center; }
 
-.redesSociales {
-  justify-self: self-end; }
-
 .pieDePagina__logoAbreviado:hover {
   animation: vibra 0.5s infinite; }
 
@@ -661,13 +658,6 @@ button {
     font-family: poppins, sans-serif;
     font-weight: bold;
     margin-left: 13%; }
-  .pieDePagina__derechosReservados {
-    display: none; }
-  .pieDePagina {
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-    grid-template-rows: 70px;
-    align-items: center; }
   .seleccion {
     display: flex;
     flex-direction: column; }
@@ -770,13 +760,6 @@ button {
     font-family: poppins, sans-serif;
     font-weight: bold;
     margin-left: 13%; }
-  .pieDePagina__derechosReservados {
-    display: none; }
-  .pieDePagina {
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-    grid-template-rows: 70px;
-    align-items: center; }
   .seleccion {
     display: flex;
     flex-direction: column; } }

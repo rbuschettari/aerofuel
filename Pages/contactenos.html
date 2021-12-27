@@ -69,25 +69,25 @@
     <h1 class="TituloFormulario animate__animated animate__bounceInUp animate__slow">Contactenos</h1>
   
     <div class="container formulario">
-      <form class="row g-3">
+      <form class="row g-3" method="post" action="enviar.php">
         <div class="col-md-6">
           <label for="inputName" class="form-label"></label>
-          <input type="text" required placeholder="Nombre*" class="form-control" id="inputName">
+          <input type="text" name="nombre" required placeholder="Nombre*" class="form-control" id="inputName">
         </div>
         <div class="col-md-6">
-          <label for="inputLastName" class="form-label"></label>
+          <label for="inputLastName" name="apellido" class="form-label"></label>
           <input type="text" required placeholder="Apellido*" class="form-control" id="inputLastName">
         </div>
         <div class="col-md-6">
-          <label for="inputCompany" class="form-label"></label>
+          <label for="inputCompany" name="empresa" class="form-label"></label>
           <input type="text" placeholder="Empresa" class="form-control" id="inputCompany">
         </div>
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label"></label>
+          <label for="inputEmail4" name="email" class="form-label"></label>
           <input type="email" required placeholder="Email*" class="form-control" id="inputEmail4">
         </div>
         <div class="col-md-4">
-          <label for="inputCountry" class="form-label">Origen</label>
+          <label for="inputCountry" name="pais" class="form-label">Origen</label>
           <select id="inputCountry" class="form-select">
             <option selected>Elija una opción</option>
             <option>Argentina</option>
@@ -95,7 +95,7 @@
           </select>
         </div>
         <div class="col-12 checkInformacion">
-          <label class="masInformacion" for="">Deseo recibir información sobre:</label>
+          <label class="masInformacion" name="informacion" for="">Deseo recibir información sobre:</label>
   
           <div class="seleccion">
             <div class="form-check form-check-inline">
@@ -131,8 +131,8 @@
           </div>
         </div>
         <div class="col-md-12">
-          <label for="inputText" class="form-label"></label>
-          <textarea placeholder="Ingrese su mensaje aquí" class="form-control" id="inputText" name="" id="" cols="30" rows="10"></textarea>
+          <label for="inputText" name="mensaje" class="form-label"></label>
+          <textarea required placeholder="Ingrese su mensaje aquí*" class="form-control" id="inputText" name="" id="" cols="30" rows="10"></textarea>
         </div>
         <div class="col-12 botonEnviar">
           <button type="submit" class="btn btn-primary btnEnviar">Enviar</button>

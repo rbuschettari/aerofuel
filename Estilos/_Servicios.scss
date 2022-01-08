@@ -44,8 +44,7 @@
 
 .contenidoImagenesUno{
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 5%;
+    justify-content: space-around;
 }
 
 .contenidoImagenesDos{
@@ -56,6 +55,8 @@
 .iconoServicios{
     width: 50%;
     height: auto;
+    margin-left: -25%;
+
     
 }
 

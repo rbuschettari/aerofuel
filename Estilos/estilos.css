@@ -286,15 +286,15 @@ ul li a {
 
 .contenidoImagenesUno, .contenidoImagenesDos {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 5%; }
+  justify-content: space-around; }
 
 .contenidoImagenesDos {
   padding-top: 5%; }
 
 .iconoServicios {
   width: 50%;
-  height: auto; }
+  height: auto;
+  margin-left: -25%; }
 
 .subtituloContenido {
   padding-top: 15%;
@@ -606,14 +606,17 @@ button {
   .contenidoImagenesUno, .contenidoImagenesDos {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin: 0%; }
   .contenidoImagenesDos {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin: 0%; }
   .iconoServicios {
     width: 45%;
-    height: auto; }
+    height: auto;
+    margin: 0%; }
   .subtituloContenido {
     font-size: 100%;
     margin: 0%; }
@@ -708,14 +711,17 @@ button {
   .contenidoImagenesUno, .contenidoImagenesDos {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin: 0%; }
   .contenidoImagenesDos {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin: 0%; }
   .iconoServicios {
     width: 45%;
-    height: auto; }
+    height: auto;
+    margin: 0%; }
   .subtituloContenido {
     font-size: 100%;
     margin: 0%; }
